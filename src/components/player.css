@@ -1,0 +1,29 @@
+/* Player.css */
+.player, .dealer {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .betting-section {
+    margin-bottom: 10px;
+  }
+  
+  .betting-section form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .betting-section input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .hand {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,25 @@
+/* Card.css */
+.card {
+    width: 60px;
+    height: 90px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .card-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-suit {
+    font-size: 18px;
+    text-align: right;
+  }
+  
