@@ -17,9 +17,17 @@
     font-size: 18px;
     font-weight: bold;
   }
+
+  .card-value-red {
+    color: red;
+  }
   
   .card-suit {
     font-size: 18px;
     text-align: right;
+  }
+
+  .card-suit-red {
+    color: red;
   }
   

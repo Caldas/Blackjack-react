@@ -11,10 +11,12 @@ function Card({ value, suit }) {
     spades: '♠️',
   };
 
+  let isRedSuit = suit === 'hearts' || suit === 'diamonds';
+
   return (
     <div className="card">
-      <div className="card-value">{value}</div>
-      <div className="card-suit">{suitSymbols[suit]}</div>
+      <div className={isRedSuit ? 'card-value card-value-red' : 'card-value'}>{value}</div>
+      <div className={isRedSuit ? 'card-suit-red' : 'card-suit'}>{suitSymbols[suit]}</div>
     </div>
   );
 }
